@@ -119,6 +119,8 @@ Extracting the four datasets in all languages will require 374 GB disk space.
 
 ## Pre-Processing
 
+TLDR: run `bash maven.sh`
+
 The provided Scala Spark code pre-processes the downloaded and extracted datasets
 and produces [Dgraph compatible RDF triples](https://dgraph.io/docs/mutations/triples).
 
