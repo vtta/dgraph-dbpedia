@@ -1,2 +1,4 @@
 dbpedia/
 apache-maven*
+jdk*
+target/
