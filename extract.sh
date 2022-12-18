@@ -20,5 +20,5 @@ extract=$(dirname "$0")
 # 	$extract/extract_file.sh "$file"
 # done
 
-fd -e bz2 . "$base" | parallel --will-cite --progress --eta bunzip2 -dk {}
+fd -Ie bz2 . "$base" | parallel --will-cite --progress --eta bunzip2 -dk {}
 
