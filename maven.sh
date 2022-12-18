@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-DIR="$(dirname "$(readlink -f "$0")")")
+DIR="$(dirname "$(readlink -f "$0")")"
 MVN="$DIR/apache-maven-3.8.6/bin/mvn"
 MVN_RELEASE="https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz"
 export MAVEN_OPTS="-Xmx$((2*$(nproc)))g"
